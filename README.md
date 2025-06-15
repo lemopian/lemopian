@@ -6,7 +6,7 @@
   <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/emilien-foissotte/emilien-foissotte/output/github-contribution-grid-snake.svg">
 </picture>
 
-I'm a ML × GenAI Applied Engineer @ [Devoteam A Cloud](https://www.linkedin.com/company/devoteam/posts/?feedView=all), working on:
+I'm a ML × GenAI Applied Engineer @[Devoteam A Cloud](https://www.linkedin.com/company/devoteam/posts/?feedView=all), working on:
 
 * 🤖 Building and deploying GenAI Solutions using LLMs (OpenAI, Claude, Mistral, Nova, etc.)
 
