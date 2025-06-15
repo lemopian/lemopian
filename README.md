@@ -10,9 +10,9 @@ I'm a ML × GenAI Applied Engineer @[Devoteam A Cloud](https://www.linkedin.com/
 
 * 🤖 Building and deploying GenAI Solutions using LLMs (OpenAI, Claude, Mistral, Nova, etc.)
 
-* ☁️ Designing scalable ML pipelines on AWS (SageMaker, Lambda, Step Functions)
+* ☁️ Designing scalable ML pipelines on AWS (SageMaker, Lambda, Step Functions, etc.)
 
-* 🧩 Integrating GenAI capabilities into real business applications (chatbots, copilots, RAG)
+* 🧩 Integrating GenAI capabilities into real business applications (chatbots, copilots, RAG, etc.)
 
 * 🧠 Evaluating foundation models for enterprise use cases
 
@@ -20,7 +20,7 @@ I'm a ML × GenAI Applied Engineer @[Devoteam A Cloud](https://www.linkedin.com/
 
 * 🧪 Running POCs and MVPs with clients across industries
 
-* 📊 Translating business challenges into AI-driven solutions with measurable impact
+* 📊 Translating business challenges into Data & AI-driven solutions with measurable impact
 
 I'm based in Paris 🗼, France 🇫🇷.
 
