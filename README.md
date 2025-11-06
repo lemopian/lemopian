@@ -24,7 +24,7 @@ I'm a ML × GenAI Applied Engineer @[Devoteam A Cloud](https://www.linkedin.com/
 
 I'm based in Paris 🗼, France 🇫🇷.
 
-I weekly write about my learning journey and experiences on [Linkedin](https://www.linkedin.com/in/paleundeu/). Don't hesitate to connect with me 👇🏾!
+I write about my learning journey and experiences on [Linkedin](https://www.linkedin.com/in/paleundeu/). Don't hesitate to connect with me 👇🏾!
 
 📧 &nbsp;**Connect with me**
 
