@@ -1,0 +1,34 @@
+name: update blog posts
+
+on:
+  schedule:
+    - cron: "0 6 * * *"
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: refresh the post list from the Seven Mile feed
+        run: node scripts/update-blog-posts.mjs
+
+      - name: commit the refreshed README
+        run: |
+          if git diff --quiet README.md; then
+            echo "nothing to commit"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "chore: refresh Seven Mile post list" README.md
+          git push
