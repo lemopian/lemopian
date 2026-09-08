@@ -6,7 +6,7 @@
   <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/lemopian/lemopian/output/github-contribution-grid-snake.svg">
 </picture>
 
-I'm a ML × GenAI Applied Engineer @[Devoteam A Cloud](https://www.linkedin.com/company/devoteam/posts/?feedView=all), working on:
+I'm co-founder of [Seven Mile](https://sevenmile.tech), an ML × GenAI Applied Engineer working on:
 
 * 🤖 Building and deploying GenAI Solutions using LLMs (OpenAI, Claude, Mistral, Nova, etc.)
 
@@ -24,23 +24,21 @@ I'm a ML × GenAI Applied Engineer @[Devoteam A Cloud](https://www.linkedin.com/
 
 I'm based in Paris 🗼, France 🇫🇷.
 
-I write about my learning journey and experiences on [Linkedin](https://www.linkedin.com/in/paleundeu/). Don't hesitate to connect with me 👇🏾!
+I write about my learning journey and experiences on the [Seven Mile blog](https://sevenmile.tech/blog) and on [Linkedin](https://www.linkedin.com/in/paleundeu/). Don't hesitate to connect with me 👇🏾!
 
 📧 &nbsp;**Connect with me**
 
-[![website](./img/medium-light.svg)](https://medium.com/@pierreangeleundeu/#gh-light-mode-only)
-[![website](./img/medium-dark.svg)](https://medium.com/@pierreangeleundeu/#gh-dark-mode-only)
-&nbsp;&nbsp;
 [![website](./img/linkedin-light.svg)](https://www.linkedin.com/in/paleundeu#gh-light-mode-only)
 [![website](./img/linkedin-dark.svg)](https://linkedin.com/in/paleundeu#gh-dark-mode-only)
 &nbsp;&nbsp;
 
 
-📕 &nbsp;**Latest Medium Posts**
+📕 &nbsp;**Latest Seven Mile Posts**
 
-<!-- MEDIUM-POST-LIST:START -->
-- [Mistral OCR and Notion MCP Servers to Consolidate Notes](https://medium.com/@pierreangeleundeu/how-i-use-mistral-document-ai-to-consolidate-my-notes-16416c7b7225)
-<!-- MEDIUM-POST-LIST:END -->
+<!-- BLOG-POST-LIST:START -->
+- [Le savoir ne grandit que s’il circule.](https://sevenmile.tech/blog/le-savoir-circule)
+- [Publier ce que l’on apprend, même quand c’est petit.](https://sevenmile.tech/blog/publier-ce-que-lon-apprend)
+<!-- BLOG-POST-LIST:END -->
 
-➡️ &nbsp;[More Medium posts...](https://medium.com/@pierreangeleundeu/)
+➡️ &nbsp;[Read the Seven Mile blog...](https://sevenmile.tech/blog)
 
