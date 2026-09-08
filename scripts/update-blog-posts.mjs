@@ -14,6 +14,13 @@ const fail = (message) => {
   process.exit(1);
 };
 
+// The feed having nothing for me yet is an expected state, not a broken one:
+// leave the README alone and stay green. A feed that cannot be read is a failure.
+const skip = (message) => {
+  console.warn(`update-blog-posts: ${message} — leaving the list untouched`);
+  process.exit(0);
+};
+
 const entities = { amp: "&", lt: "<", gt: ">", quot: '"', apos: "'", "#39": "'" };
 const decode = (text) => text.replace(/&(amp|lt|gt|quot|apos|#39);/g, (_, name) => entities[name]);
 
@@ -30,9 +37,9 @@ try {
 } catch (error) {
   fail(`could not fetch ${FEED}: ${error.cause?.message ?? error.message}`);
 }
-// The site is a SPA: any unknown path answers 200 with the app shell. Without this
-// check an undeployed feed reads as "no posts" and empties the README.
-if (!feed.includes("<rss")) fail(`${FEED} did not return an RSS document (is the blog deployed?)`);
+// The site is a SPA: any unknown path answers 200 with the app shell, so an
+// undeployed feed would otherwise read as "no posts" and empty the README.
+if (!feed.includes("<rss")) skip(`${FEED} is not an RSS document (is the blog deployed?)`);
 
 const posts = [...feed.matchAll(/<item>([\s\S]*?)<\/item>/g)]
   .map(([, item]) => ({
@@ -45,7 +52,7 @@ const posts = [...feed.matchAll(/<item>([\s\S]*?)<\/item>/g)]
   .sort((a, b) => b.date - a.date)
   .slice(0, MAX);
 
-if (posts.length === 0) fail(`no post in ${FEED} is signed by ${AUTHOR}`);
+if (posts.length === 0) skip(`no post in ${FEED} is signed by ${AUTHOR}`);
 
 const list = posts.map((post) => `- [${post.title}](${post.url})`).join("\n");
 const readme = readFileSync(README, "utf8");
